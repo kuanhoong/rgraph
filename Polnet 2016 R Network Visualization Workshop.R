@@ -211,7 +211,7 @@ detach("package:extrafont")
 rm(list = ls()) 
  
 # Set the working directory to the folder containing the workshop files:
-setwd("C:/polnet2016") 
+setwd("C:/Users/Kuan/Documents/GitHub/rgraph/") 
 
 # If you don't know the path to the folder and you're in RStudio, go to the
 # "Session" menu -> "Set Working Directory" -> "To Source File Location"
@@ -267,6 +267,7 @@ library("igraph")
 # DATASET 1 
 
 # Converting the data to an igraph object:
+
 # The graph_from_data_frame() function takes two data frames: 'd' and 'vertices'.
 # 'd' describes the edges of the network - it should start with two columns 
 # containing the source and target node IDs for each network tie.
